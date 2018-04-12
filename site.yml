@@ -1,11 +1,12 @@
 site:
   title: Antora Demo Site
+  url: https://demo.antora.org
   start_page: component-b::index
 content:
   sources:
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
+  - url: ../demo-component-a
     branches: master
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
+  - url: ../demo-component-b
     branches: [v2.0, v1.0]
     start_path: docs
 ui:
